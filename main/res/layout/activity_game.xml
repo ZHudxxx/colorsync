@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".GameActivity">
+
+        <include
+            layout="@layout/images"
+            android:layout_width="wrap_content"
+            android:layout_height="550dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nickname"
+            android:textSize="24sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score: 0"
+            android:textSize="24sp"
+            android:layout_below="@id/nickname"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/timerValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/timerVal"
+            android:textSize="24sp"
+            android:layout_below="@id/score"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/timerValue"
+            android:textSize="24sp"
+            android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="610dp"
+            android:layout_marginBottom="11dp"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true">
+
+                <!-- Play-->
+                <Button
+                    android:id="@+id/btnPlay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:textSize="23sp"
+                    android:fontFamily="@font/bebas_neue"
+                    android:background="@color/play_button_color"
+                    android:text="Play" />
+
+                <!-- Reset -->
+                <Button
+                    android:id="@+id/btnReset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/bebas_neue"
+                    android:background="@color/reset_button_color"
+                    android:text="Reset" />
+
+                <!-- Exit -->
+                <Button
+                    android:id="@+id/btnExit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:fontFamily="@font/bebas_neue"
+                    android:background="@color/exit_button_color"
+                    android:text="Exit" />
+
+        </LinearLayout>
+</RelativeLayout>

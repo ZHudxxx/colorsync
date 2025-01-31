@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.colorsync.MainPage">
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/bebas_neue"
+        android:hint="Email"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="430dp" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/bebas_neue"
+        android:hint="Password"
+        android:inputType="text"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="490dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="106dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#114FAA"
+        android:fontFamily="@font/bebas_neue"
+        android:text="LOGIN"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="566dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bebas_neue"
+        android:text="LOGIN"
+        android:textColor="#114FAA"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

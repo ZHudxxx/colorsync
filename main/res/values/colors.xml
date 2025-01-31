@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue_light">#BBDEFB</color>
+    <color name="blue_dark">#1976D2</color>
+    <color name="blue_sky">#87ceeb</color>
+
+        <!-- play, reset, quit button punya -->
+        <color name="play_button_color">#1976D2</color>
+        <color name="reset_button_color">#BBDEFB</color>
+        <color name="exit_button_color">#F44336</color>
+
+        <color name="colorPrimary">#FF6200EE</color>
+        <color name="colorPrimaryDark">#FF3700B3</color>
+        <color name="colorAccent">#FF018786</color>
+
+
+
+</resources>

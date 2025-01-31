@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/blue_light">
+
+
+    <EditText
+        android:id="@+id/etSearchNickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Nickname"
+        android:backgroundTint="@color/white"
+        android:background="@color/white"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_marginLeft="2dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:backgroundTint="@color/blue_dark"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"/>
+
+    <ListView
+        android:id="@+id/lvRecords"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:background="@color/blue_sky"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@color/blue_dark"
+        android:fontFamily="@font/bebas_neue"
+        android:text="Back to Home"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+</LinearLayout>

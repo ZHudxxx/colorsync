@@ -1,0 +1,4 @@
+ <resources>
+     <string name="app_name">ColorSync</string>
+     <string name="timerVal">00:00:000</string>
+</resources>
